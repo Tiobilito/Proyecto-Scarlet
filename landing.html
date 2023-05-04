@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Proyecto Scarlet - Bienvenidos</title>
+    <meta charset="utf-8">
+    <meta name="viewport" initial-scale=1>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <script src="js/bootstrap.bundle.min.js"></script>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-sm navbar-dark bg-danger">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="javascript:void(0)">Proyecto Scarlet</a>
+            <div class="collapse navbar-collapse" id="mynavbar">
+                <form class="d-flex">
+                    <button class="btn btn-dark text-danger" type="button" id="btn-in" onclick="location.href='login.php'">Inicia Sesión</button>
+                    <button class="btn btn-dark text-danger" type="button" id="btn-rg" onclick="location.href='register.php'">Regístrate</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+    <section id="inicio">
+      <div id="inicio-ldg"></div>
+      <div class="row pb-5">
+        <div class="col p-3 text-white"></div>
+        <div class="col pt-4 p-3 text-white">
+          <div class="container p-4 mt-4 bg-dark text-danger" style="width: 650px;">
+            <h1 style="text-align: center;">Proyecto Scarlet</h1>
+            <p style="text-align: center;  color:#ffffff; font-size: 17px;">Tanto si buscas un carpintero, un herrero, un plomero, o un electricista, como si eres uno propiamente, el Proyecto Scarlet es para ti.</p>
+          </div>
+        </div>
+        <div class="col text-white"></div>
+      </div>
+    </section>
+
+    <section id="caracteristicas">
+      <div class="row">
+        <div class="col p-3 pt-4 mt-5"></div>
+        <div class="col p-3 pt-4 mt-5">
+          <div class="flex-row">
+            <div class="col-sm-4 mx-auto" style="width: 400px;">
+              <h3 style="text-align: center;">¿Qué es?</h3>
+              <p style="text-align: justify;">Proyecto Scarlet es una plataforma en línea dedicada a la interacción trabajador/cliente en la cual los trabajadores pueden darse a conocer para realizar actividades con base en sus habilidades, así como también los potenciales clientes pueden encontrar al trabajador ideal para su proyecto.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col p-3 pt-4 mt-5"></div>
+        <div class="col p-3 mt-5 pb-5">
+          <div class="flex-row">
+            <div class="col-sm-4 mx-auto" style="width: 400px;">
+              <h3 style="text-align: center;">¿Como funciona?</h3>
+              <p style="text-align: justify;">Al registrarte como usuario solicitante, encontrarás un amplio catálogo de trabajadores de oficio a los cuáles podrás contactar para ese trabajo que necesitas realizar.</p>
+              <p style="text-align: justify;">Al registrarte como usuario trabajador, podrás subir tu información laboral, tu experiencia, etcétera, para después esperar a que esos potenciales clientes acudan a tu servicio.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col p-3 pt-4 mt-5"></div>
+      </div>
+    </section>
+    <section id="contacto">
+      <div class="mt-4 p-2 bg-dark text-danger text-center">
+        <div class="row">
+          <div class="col-sm-4"></div>
+          <div class="col-sm-4">
+            <h3> Contacto y Redes</h3>
+            <p>ProyectScarletOfficial@hotmail.com</p>
+            <div class="d-flex justify-content-between">
+              <a href="https://twitter.com/" target="_blank"><img src="../img/Twitter.png" class="bottom_icon"></a>
+              <a href="https://www.facebook.com/" target="_blank"><img src="../img/Facebook.png" class="bottom_icon"></a>
+              <a href="https://www.instagram.com/" target="_blank"><img src="../img/Instagram.png" class="bottom_icon"></a>
+            </div>
+          </div>
+          <div class="col-sm-4"></div>
+        </div>
+      </div>
+    </section>
+
+</body>
+
+
+<style>
+    body{
+      overflow-x: hidden;
+    }
+    #btn-in {
+        margin-right: 20px;
+        margin-left: 20px;
+    }
+    #inicio-ldg{
+        background-image: url('../img/Trabajos.jpg') ;
+        background-repeat: no-repeat;
+        height: 360px;
+    }
+    #titulo{
+        font-family: "Montserrat", sans-serif;
+    }
+    #marco{
+        margin-top: 100px;
+        padding-left: 150px;
+        padding-right: 150px;
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+    #titulo{
+       color: #ad0c0c;
+       font-weight: bold;
+       font-family: Verdana, Geneva, Tahoma, sans-serif;
+       text-shadow:-1px -1px 1px #ffffff,
+             0px 4px 1px rgba(0,0,0,0.5),
+             4px 4px 5px rgba(0,0,0,0.7),
+             0px 0px 7px rgba(0,0,0,0.4);;
+    }
+    #titulo1{
+       color: white;
+       font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+    .bottom_icon {
+      width: 60px;
+      height: 60px;
+      margin: 0 2rem;
+      padding: 1rem;
+      transition: all .2s ease-in-out;
+    }
+
+    .bottom_icon:hover {
+      margin: 0 2rem;
+      padding: 1rem;
+      transform: scale(1.5);
+    }
+    
+</style>
+
+</html>

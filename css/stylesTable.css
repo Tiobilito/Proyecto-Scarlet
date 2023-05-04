@@ -1,0 +1,29 @@
+#contenido{
+    border: solid 2px;
+}
+
+table{
+    color: #fff;
+    font-size: 14px;
+    table-layout: fixed;
+    border-collapse: collapse;
+}
+
+thead{
+    background: brown;
+}
+
+th{
+    padding: 20px 15px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+td{
+    padding: 15px;
+    border-bottom: solid 1px;
+}
+
+tbody tr:hover{
+    background: rgba(187, 7, 7, 0.611);
+}
